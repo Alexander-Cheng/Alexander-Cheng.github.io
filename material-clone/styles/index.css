@@ -1,0 +1,50 @@
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://alexander-cheng.github.io/material-clone/icons/MaterialSymbolsRounded[FILL,GRAD,opsz,wght].woff2) format('woff2'),
+    url(https://alexander-cheng.github.io/material-clone/icons/MaterialSymbolsRounded[FILL,GRAD,opsz,wght].ttf) format('truetype');
+}
+
+body {
+  background-color: #141314
+}
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.material-icons.md-light { color: rgb(230,225,227); }
+
+.sidebar {
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 88px
+  
+}

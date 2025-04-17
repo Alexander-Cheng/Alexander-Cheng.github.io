@@ -2,30 +2,69 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="sidebar">
       <div class="upper-sidebar">
-        <div class="search"></div>
-          <span class="material-icons md-light">search</span>
-        <div class="home"></div>
-          <span class="material-icons md-light">home</span>
-        <div class="get-started"></div>
-          <span class="material-icons md-light">apps</span>
-        <div class="develop"></div>
-          <span class="material-icons md-light">code</span>
-        <div class="foundations"></div>
-          <span class="material-icons md-light">book</span>
-        <div class="styles"></div>
-          <span class="material-icons md-light">palette</span>
-        <div class="components"></div>
-          <span class="material-icons md-light">add_circle</span>
-        <div class="blog"></div>
-          <span class="material-icons md-light">pages</span>
+        <button class="search-button">
+          <div class="search"></div>
+            <span class="material-icons md-light">search</span>
+        </button>
+        <div class="sidebar-icons">
+          <span class="icon-circle current-icon">
+           <span class="material-icons md-light icon-shift">home</span>
+          </span>
+          <div class="label">Home</div>
+        </div>
+        <div class="sidebar-icons">
+          <span class="icon-circle">
+            <span class="material-icons md-light icon-shift">apps</span>
+          </span>
+          <div class="label">Get Started</div>
+        </div>
+        <div class="sidebar-icons">
+          <span class="icon-circle">
+            <span class="material-icons md-light icon-shift">code</span>
+          </span>
+          <div class="label">Develop</div>
+        </div>
+        <div class="sidebar-icons">
+          <span class="icon-circle">
+            <span class="material-icons md-light icon-shift">book</span>
+          </span>
+          <div class="label">Foundations</div>
+        </div>
+        <div class="sidebar-icons">
+          <span class="icon-circle">
+            <span class="material-icons md-light icon-shift">palette</span>
+          </span>
+          <div class="label">Styles</div>
+        </div>
+        <div class="sidebar-icons">
+          <span class="icon-circle">
+           <span class="material-icons md-light icon-shift">add_circle</span>
+          </span>
+          <div class="label">Components</div>
+        </div>
+        <div class="sidebar-icons">
+          <span class="icon-circle">
+            <span class="material-icons md-light icon-shift">pages</span>
+          </span>
+          <div class="label">Blog</div>
+        </div>
       </div>
       <div class="downer-sidebar">
-        <div class="light-mode"></div>
-          <span class="material-icons md-light">light_mode</span>
+        <button class="play-button">
+          <div class="light-mode"></div>
+            <span class="material-icons md-light">play_arrow</span>
+        </button>
+        <button class="light-button">
+          <div class="light-mode"></div>
+            <span class="material-icons md-light">light_mode</span>
+        </button>
       </div>
     </div>
   </body>

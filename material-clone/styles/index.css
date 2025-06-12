@@ -5,8 +5,8 @@
   font-weight: 400;
   src: local('Material Icons'),
     local('MaterialIcons-Regular'),
-    url(https://alexander-cheng.github.io/material-clone/icons/MaterialSymbolsRounded[FILL,GRAD,opsz,wght].woff2) format('woff2'),
-    url(https://alexander-cheng.github.io/material-clone/icons/MaterialSymbolsRounded[FILL,GRAD,opsz,wght].ttf) format('truetype');
+    url(../icons/MaterialSymbolsRounded[FILL,GRAD,opsz,wght].woff2) format('woff2'),
+    url(../icons/MaterialSymbolsRounded[FILL,GRAD,opsz,wght].ttf) format('truetype');
 }
 
 body {
